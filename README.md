@@ -14,11 +14,13 @@ Este módulo integra una instancia de **Cloudflare Turnstile** para proteger el 
 1. Sube el módulo a tu instalación de PrestaShop.
 2. Actívalo desde el panel de administración.
 3. Configura tus claves de Cloudflare Turnstile en la sección de configuración del módulo.
+4. Adicionalmente puedes configurar el look del contenedor turnstile (.cf-turnstile) con márgenes, position, display, y justify-content (en el caso de flex)
 
 ## Requisitos
 
 - PrestaShop 1.7 o superior.
 - Cuenta en [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) para obtener las claves necesarias.
+- Necesita inicializar el hook displaycontactExtra en el template del módulo contactform añadiendo el código {hook h='displaycontactExtra'} en el archivo .tpl
 
 ## Soporte
 
